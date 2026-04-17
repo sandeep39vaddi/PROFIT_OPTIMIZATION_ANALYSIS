@@ -1,93 +1,95 @@
-# 🏥 Healthcare Data Analysis: Patient Trends and Cost Insights using Python
+# 📊 End-to-End Business Analysis: Profit Optimization using SQL, Python, and Dashboarding
 
 ## 📌 Overview
 
-This project analyzes healthcare insurance data to identify trends in medical costs based on patient demographics, smoking habits, BMI, and region.
+This project analyzes retail sales data to identify why the company experiences low profit despite high sales. Using SQL, Python, and visualizations, the project uncovers the impact of discounts, loss-making products, and category-level profitability.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze average medical charges
-* Compare charges by smoker status
-* Evaluate regional healthcare costs
-* Study BMI impact on medical expenses
-* Generate insights for healthcare cost management
+* Analyze total sales and profit
+* Identify profitable and loss-making categories
+* Detect products causing major losses
+* Evaluate discount impact on profitability
+* Recommend strategies to improve profit
 
 ---
 
 ## 🛠️ Tools Used
 
+* SQL
 * Python
 * Pandas
 * Matplotlib
-* Seaborn
+* Dashboarding (Power BI / Excel)
 
 ---
 
 ## 📂 Dataset
 
-* Medical Cost Personal Dataset (Kaggle)
+* Superstore Sales Dataset
 
 ---
 
 ## 📊 Analysis Performed
 
-* Average medical cost analysis
-* Charges by smoker vs non-smoker
-* Charges by region
-* Charges by gender
-* BMI vs medical cost trends
+* Total sales vs total profit
+* Profit by category
+* Loss-making products analysis
+* Discount vs average profit
+* Dashboard visualizations
 
 ---
 
 ## 📸 Visualizations
 
-### Smoker vs Medical Charges
+### Profit by Category
 
-![Smoker Cost](images/smoker_cost.png)
+![Profit Category](images/profit_category.png)
 
-### Region vs Charges
+### Discount vs Profit
 
-![Region Cost](images/region_cost.png)
+![Discount Profit](images/discount_profit.png)
 
-### BMI vs Charges
+### Loss-Making Products
 
-![BMI Cost](images/bmi_cost.png)
+![Loss Products](images/loss_products.png)
 
 ---
 
 ## 💡 Key Insights
 
-* Smokers incur significantly higher medical costs than non-smokers
-* Higher BMI is associated with increased medical expenses
-* Medical charges vary by region
-* Demographic factors influence healthcare costs
+* Higher discount levels significantly reduce profit margins
+* Certain products generate consistent losses
+* Technology category contributes the highest profit
+* Discount optimization can improve overall profitability
 
 ---
 
 ## ▶️ How to Run
 
-1. Install dependencies:
-   `pip install pandas matplotlib seaborn`
-
-2. Run:
+1. Run SQL queries in `analysis.sql`
+2. Run Python analysis:
    `python analysis.py`
+3. Review generated charts in `images/`
 
 ---
 
 ## 📁 Project Structure
 
-P9_HEALTHCARE_ANALYSIS/
+P10_PROFIT_OPTIMIZATION_ANALYSIS/
 │── data/
-│── notebook/
+│── sql/
+│── python/
 │── images/
+│── dashboard/
 │── README.md
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates healthcare cost analysis using Python and provides insights into factors affecting insurance expenses.
+This project demonstrates end-to-end business analysis skills by combining SQL, Python, and visualization techniques to solve a real-world profitability problem.
 
 ---
