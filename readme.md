@@ -46,15 +46,15 @@ This project analyzes retail sales data to identify why the company experiences 
 
 ### Profit by Category
 
-![Profit Category](images/profit_category.png)
+![Profit Category](profit_category.png)
 
 ### Discount vs Profit
 
-![Discount Profit](images/discount_profit.png)
+![Discount Profit](discount_profit.png)
 
 ### Loss-Making Products
 
-![Loss Products](images/loss_products.png)
+![Loss Products](loss_products.png)
 
 ---
 
